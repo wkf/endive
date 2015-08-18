@@ -1,0 +1,25 @@
+[[:.my-link
+  {:padding #px 1}
+  ["&::before"
+   {:color :green
+    :height #px 2}]]
+ [:body.class
+  [:div
+   {:background :blueish
+    :my-link [:blue #px 24]
+    :padding #percent 25}]
+  ["&::after"
+   {:border 1}
+   {:border 2}]
+  ["> div > div > *:nth-child(2)"
+   [:&
+    {:border {:color #rgb [122 34 34]}}]]]
+
+ #at-media
+ [{:snap :small}
+  [:body
+   [:&
+    {:padding #px 20
+     :background #rgb [122 34 34]}]
+   ["&::after"
+    {:padding #px 20}]]]]
