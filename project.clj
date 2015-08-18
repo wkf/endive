@@ -1,6 +1,6 @@
 (defproject endive "0.1.1-SNAPSHOT"
   :description "Selector based CSS templating"
-  :url "FIXME: write description"
+  :url "https://github.com/wkf/endive"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :test-paths ["src/test"]
