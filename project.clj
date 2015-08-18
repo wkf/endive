@@ -1,4 +1,4 @@
-(defproject endive "0.1.1-SNAPSHOT"
+(defproject endive "0.1.1"
   :description "Selector based CSS templating"
   :url "https://github.com/wkf/endive"
   :license {:name "Eclipse Public License"
