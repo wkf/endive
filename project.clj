@@ -1,4 +1,4 @@
-(defproject endive "0.1.0"
+(defproject endive "0.1.1-SNAPSHOT"
   :description "Selector based CSS templating"
   :url "FIXME: write description"
   :license {:name "Eclipse Public License"
